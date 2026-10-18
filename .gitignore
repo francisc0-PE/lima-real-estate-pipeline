@@ -1,0 +1,17 @@
+# Secretos y temporales
+.env
+__pycache__/
+*.py[cod]
+
+# Bases de datos y archivos comerciales
+data/
+logs/
+*.db
+*.csv
+*.xlsx
+*.json
+!padron_local.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
